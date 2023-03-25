@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    position: relative;
+    overflow-x: hidden;
+}
+
+header{
+    position: fixed;
+    color: #fff;
+    padding-top: 20px;
+    width: 100vw;
+    background-color: rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    
+}
+
+.menu-icon{
+    width: 30px;
+    height: 50px;
+    position: relative;
+    float: right;
+    right: 50px;
+    z-index: 999;
+}
+
+.menu-icon hr{
+    display: block;
+    height: 3px;
+    margin-bottom: 3px;
+    background-color: rgba(245, 245, 245, 0.711);
+}
+
+.menu-icon:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+
+
+/* .fa-bars{
+    position: absolute;
+    color: white;
+    display: block;
+    float: right;
+} */
+
+.info-wrapper{
+    background-color: black;
+    text-align: center;
+    height: 30px;
+    padding: 5px;
+    margin-top: 30px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 1px;
+    
+}
+
+.hide-para{
+    visibility: hidden;
+}
+
+
+.logo img{
+    width: 210px;
+    position: fixed;
+    bottom: 17px;
+    left: 17px;
+}
+
+.main{
+    overflow-x: hidden;
+    position: absolute;
+    z-index: -1;
+}
+
+.main img{
+    display: block;
+    width: 100vw;
+}
+
+.menu-items{
+    text-transform: uppercase;
+    padding: 0 0 0 13px;
+    list-style-type: none;
+    width: 100vw;
+    position: absolute;
+    top: 13px;
+    background-color: rgba(0,0,0,0.75);
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+    display: none;
+}
+
+ul li{
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+ul li a{
+    color: rgba(255, 255, 255, 0.729);
+    text-decoration: none;
+}
+
+.show-menu{
+    display: inline-block;
+}
